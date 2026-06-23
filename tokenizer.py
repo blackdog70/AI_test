@@ -1,1 +1,292 @@
-IiIiClRva2VuaXp6YXRvcmUgZGlkYXR0aWNvIC0gQnl0ZSBQYWlyIEVuY29kaW5nIChCUEUpCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpJbXBsZW1lbnRhIGwnYWxnb3JpdG1vIEJQRSB1c2F0byBpbiBwcm9kdXppb25lIGRhIEdQVC0yL0dQVC00LCBMTGFNQSwgZWNjLgoKQ29uY2V0dGkgY2hpYXZlIGZlZGVsaSBhbGxhIHJpY2VyY2E6CiAgLSBWb2NhYm9sYXJpbyBjb3N0cnVpdG8gYm90dG9tLXVwIHBhcnRlbmRvIGRhaSBieXRlIGdyZXp6aSAoMjU2IHRva2VuIGJhc2UpCiAgLSBNZXJnZSBpdGVyYXRpdm8gZGVsbGUgY29wcGllIHBpw7kgZnJlcXVlbnRpIChTZW5ucmljaCBldCBhbC4sIDIwMTYpCiAgLSBUb2tlbiBJRCBudW1lcmljaSBpbnRlcmkgKGNvbWUgbmVpIHRyYW5zZm9ybWVyIHJlYWxpKQogIC0gVGVzdG8g4oaSIHRva2VuIElEcyDihpIgdGVzdG8gKGVuY29kZS9kZWNvZGUgc2ltbWV0cmljaSkKICAtIFNwZWNpYWwgdG9rZW46IDx8ZW5kb2Z0ZXh0fD4sIDx8cGFkfD4sIGVjYy4KIiIiCgppbXBvcnQgcmUKaW1wb3J0IGpzb24KZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QKZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBVdGlsaXTDoCBkaSBiYXNlCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgZ2V0X3BhaXJzKGlkczogbGlzdFtpbnRdKSAtPiBkaWN0W3R1cGxlW2ludCwgaW50XSwgaW50XToKICAgICIiIkNvbnRhIHR1dHRlIGxlIGNvcHBpZSBkaSB0b2tlbiBhZGlhY2VudGkgKGJpZ3JhbSBjb3VudHMpLiIiIgogICAgY291bnRzOiBkaWN0W3R1cGxlW2ludCwgaW50XSwgaW50XSA9IGRlZmF1bHRkaWN0KGludCkKICAgIGZvciBhLCBiIGluIHppcChpZHMsIGlkc1sxOl0pOgogICAgICAgIGNvdW50c1soYSwgYildICs9IDEKICAgIHJldHVybiBjb3VudHMKCgpkZWYgbWVyZ2UoaWRzOiBsaXN0W2ludF0sIHBhaXI6IHR1cGxlW2ludCwgaW50XSwgbmV3X2lkOiBpbnQpIC0+IGxpc3RbaW50XToKICAgICIiIlNvc3RpdHVpc2NlIG9nbmkgb2Njb3JyZW56YSBkaSBgcGFpcmAgY29uIGBuZXdfaWRgIG5lbGxhIHNlcXVlbnphLiIiIgogICAgcmVzdWx0ID0gW10KICAgIGkgPSAwCiAgICB3aGlsZSBpIDwgbGVuKGlkcyk6CiAgICAgICAgaWYgaSA8IGxlbihpZHMpIC0gMSBhbmQgaWRzW2ldID09IHBhaXJbMF0gYW5kIGlkc1tpICsgMV0gPT0gcGFpclsxXToKICAgICAgICAgICAgcmVzdWx0LmFwcGVuZChuZXdfaWQpCiAgICAgICAgICAgIGkgKz0gMgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJlc3VsdC5hcHBlbmQoaWRzW2ldKQogICAgICAgICAgICBpICs9IDEKICAgIHJldHVybiByZXN1bHQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIFRva2VuaXp6YXRvcmUgQlBFCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpjbGFzcyBCUEVUb2tlbml6ZXI6CiAgICAiIiIKICAgIFRva2VuaXp6YXRvcmUgQnl0ZSBQYWlyIEVuY29kaW5nIChCUEUpIGRpZGF0dGljby4KCiAgICBWb2NhYm9sYXJpbyBpbml6aWFsZTogMjU2IGJ5dGUgKG9nbmkgYnl0ZSDDqCB1biB0b2tlbiBkYSAwIGEgMjU1KS4KICAgIFZvY2Fib2xhcmlvIGZpbmFsZTogICAyNTYgKyBudW1fbWVyZ2VzIHRva2VuLgoKICAgIFBhcmFtZXRyaQogICAgLS0tLS0tLS0tLQogICAgc3BlY2lhbF90b2tlbnMgOiB0b2tlbiBjb24gSUQgcmlzZXJ2YXRpLCBhZ2dpdW50aSBkb3BvIGlsIHZvY2Fib2xhcmlvIEJQRS4KICAgICAgICAgICAgICAgICAgICAgRXM6IHsiPHxlbmRvZnRleHR8PiI6IDI1NitudW1fbWVyZ2VzLCAiPHxwYWR8PiI6IC4uLn0KICAgICIiIgoKICAgICMgUGF0dGVybiBkaSBwcmUtdG9rZW5penphemlvbmUgdXNhdG8gZGEgR1BULTIgLyB0aWt0b2tlbiAoY2wxMDBrX2Jhc2UpLgogICAgIyBDb21waWxhdG8gYSBydW50aW1lIGluIF9wcmV0b2tlbml6ZSgpIHBlcmNow6kgcmljaGllZGUgbGEgbGlicmVyaWEgYHJlZ2V4YAogICAgIyAoc3VwcG9ydGEgXHB7TH0gVW5pY29kZSBwcm9wZXJ0eSBlc2NhcGVzKTsgaWwgbW9kdWxvIHN0YW5kYXJkIGByZWAgbm9uIGxvIHN1cHBvcnRhLgogICAgX0dQVDJfU1BMSVRfUEFUVEVSTl9TVFIgPSAoCiAgICAgICAgciIiIicoPzpbc2RtdF18bGx8dmV8cmUpfCIiIgogICAgICAgIHIiIiJbXlxyXG5ccHtMfVxwe059XT9ccHtMfSt8IiIiCiAgICAgICAgciIiIlxwe059ezEsM318IiIiCiAgICAgICAgciIiIiA/W15cc1xwe0x9XHB7Tn1dK1tcclxuXSp8IiIiCiAgICAgICAgciIiIlxzKltcclxuXSt8IiIiCiAgICAgICAgciIiIlxzKyg/IVxTKXwiIiIKICAgICAgICByIiIiXHMrIiIiCiAgICApCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHNwZWNpYWxfdG9rZW5zOiBPcHRpb25hbFtkaWN0W3N0ciwgaW50XV0gPSBOb25lKToKICAgICAgICAjIHZvY2Fib2xhcmlvOiBpZCDihpIgYnl0ZXMgKHVuIHNvbG8gYnl0ZSBwZXIgaSB0b2tlbiBiYXNlKQogICAgICAgIHNlbGYudm9jYWI6IGRpY3RbaW50LCBieXRlc10gPSB7aTogYnl0ZXMoW2ldKSBmb3IgaSBpbiByYW5nZSgyNTYpfQogICAgICAgICMgbGlzdGEgb3JkaW5hdGEgZGVpIG1lcmdlOiAoaWRfYSwgaWRfYikg4oaSIGlkX251b3ZvCiAgICAgICAgc2VsZi5tZXJnZXM6IGRpY3RbdHVwbGVbaW50LCBpbnRdLCBpbnRdID0ge30KICAgICAgICBzZWxmLnNwZWNpYWxfdG9rZW5zOiBkaWN0W3N0ciwgaW50XSA9IHNwZWNpYWxfdG9rZW5zIG9yIHt9CiAgICAgICAgIyBsb29rdXAgaW52ZXJzbyBwZXIgZGVjb2RlCiAgICAgICAgc2VsZi5fYnVpbGRfZGVjb2RlX3RhYmxlKCkKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgIyBUcmFpbmluZwogICAgIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICBkZWYgdHJhaW4oc2VsZiwgdGV4dDogc3RyLCB2b2NhYl9zaXplOiBpbnQsIHZlcmJvc2U6IGJvb2wgPSBUcnVlKSAtPiBOb25lOgogICAgICAgICIiIgogICAgICAgIEFkZGVzdHJhIGlsIHRva2VuaXp6YXRvcmUgc3VsIHRlc3RvIGRhdG8uCgogICAgICAgIHZvY2FiX3NpemUgOiBkaW1lbnNpb25lIGZpbmFsZSBkZWwgdm9jYWJvbGFyaW8gKD49IDI1NikuCiAgICAgICAgIiIiCiAgICAgICAgYXNzZXJ0IHZvY2FiX3NpemUgPj0gMjU2LCAidm9jYWJfc2l6ZSBkZXZlIGVzc2VyZSBhbG1lbm8gMjU2IgogICAgICAgIG51bV9tZXJnZXMgPSB2b2NhYl9zaXplIC0gMjU2CgogICAgICAgICMgUHJlLXRva2VuaXp6YXppb25lOiBzcGV6emEgaWwgdGVzdG8gaW4gY2h1bmsKICAgICAgICBjaHVua3MgPSBzZWxmLl9wcmV0b2tlbml6ZSh0ZXh0KQoKICAgICAgICAjIE9nbmkgY2h1bmsg4oaSIGxpc3RhIGRpIGJ5dGUgSUQKICAgICAgICBpZHNfcGVyX2NodW5rOiBsaXN0W2xpc3RbaW50XV0gPSBbbGlzdChjaHVuay5lbmNvZGUoInV0Zi04IikpIGZvciBjaHVuayBpbiBjaHVua3NdCgogICAgICAgIGlmIHZlcmJvc2U6CiAgICAgICAgICAgIHRvdGFsX3Rva2VucyA9IHN1bShsZW4oYykgZm9yIGMgaW4gaWRzX3Blcl9jaHVuaykKICAgICAgICAgICAgcHJpbnQoZiJbdHJhaW5dIHRlc3RvOiB7bGVuKHRleHQpfSBjYXJhdHRlcmkg4oaSIHt0b3RhbF90b2tlbnN9IGJ5dGUtdG9rZW4gaW5pemlhbGkiKQogICAgICAgICAgICBwcmludChmIlt0cmFpbl0gdm9jYWJvbGFyaW8gdGFyZ2V0OiB7dm9jYWJfc2l6ZX0gKHtudW1fbWVyZ2VzfSBtZXJnZSBkYSBlc2VndWlyZSlcbiIpCgogICAgICAgIGZvciBzdGVwIGluIHJhbmdlKG51bV9tZXJnZXMpOgogICAgICAgICAgICAjIENvbnRhIGxlIGNvcHBpZSBzdSB0dXR0aSBpIGNodW5rCiAgICAgICAgICAgIGNvdW50czogZGljdFt0dXBsZVtpbnQsIGludF0sIGludF0gPSBkZWZhdWx0ZGljdChpbnQpCiAgICAgICAgICAgIGZvciBpZHMgaW4gaWRzX3Blcl9jaHVuazoKICAgICAgICAgICAgICAgIGZvciBwYWlyLCBjbnQgaW4gZ2V0X3BhaXJzKGlkcykuaXRlbXMoKToKICAgICAgICAgICAgICAgICAgICBjb3VudHNbcGFpcl0gKz0gY250CgogICAgICAgICAgICBpZiBub3QgY291bnRzOgogICAgICAgICAgICAgICAgcHJpbnQoIlt0cmFpbl0gbmVzc3VuYSBjb3BwaWEgZGlzcG9uaWJpbGUsIHN0b3AgYW50aWNpcGF0by4iKQogICAgICAgICAgICAgICAgYnJlYWsKCiAgICAgICAgICAgIGJlc3RfcGFpciA9IG1heChjb3VudHMsIGtleT1sYW1iZGEgcDogY291bnRzW3BdKQogICAgICAgICAgICBuZXdfaWQgPSAyNTYgKyBzdGVwCgogICAgICAgICAgICAjIEFwcGxpY2EgaWwgbWVyZ2UgYSB0dXR0aSBpIGNodW5rCiAgICAgICAgICAgIGlkc19wZXJfY2h1bmsgPSBbbWVyZ2UoaWRzLCBiZXN0X3BhaXIsIG5ld19pZCkgZm9yIGlkcyBpbiBpZHNfcGVyX2NodW5rXQoKICAgICAgICAgICAgIyBBZ2dpb3JuYSBzdHJ1dHR1cmUgZGF0aQogICAgICAgICAgICBzZWxmLm1lcmdlc1tiZXN0X3BhaXJdID0gbmV3X2lkCiAgICAgICAgICAgIHNlbGYudm9jYWJbbmV3X2lkXSA9IHNlbGYudm9jYWJbYmVzdF9wYWlyWzBdXSArIHNlbGYudm9jYWJbYmVzdF9wYWlyWzFdXQoKICAgICAgICAgICAgaWYgdmVyYm9zZToKICAgICAgICAgICAgICAgIHRva2VuX3N0ciA9IHNlbGYudm9jYWJbbmV3X2lkXQogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHJlYWRhYmxlID0gdG9rZW5fc3RyLmRlY29kZSgidXRmLTgiKQogICAgICAgICAgICAgICAgZXhjZXB0IFVuaWNvZGVEZWNvZGVFcnJvcjoKICAgICAgICAgICAgICAgICAgICByZWFkYWJsZSA9IHJlcHIodG9rZW5fc3RyKQogICAgICAgICAgICAgICAgZnJlcSA9IGNvdW50c1tiZXN0X3BhaXJdCiAgICAgICAgICAgICAgICBwcmludChmIiAgbWVyZ2Uge3N0ZXArMTo0ZH0ve251bV9tZXJnZXN9OiAiCiAgICAgICAgICAgICAgICAgICAgICBmIih7YmVzdF9wYWlyWzBdOjRkfSwge2Jlc3RfcGFpclsxXTo0ZH0pIOKGkiB7bmV3X2lkOjRkfSAgIgogICAgICAgICAgICAgICAgICAgICAgZiJmcmVxPXtmcmVxOjZkfSAgdG9rZW49e3JlYWRhYmxlIXJ9IikKCiAgICAgICAgIyBBZ2dpdW5nZSBzcGVjaWFsIHRva2VuIGRvcG8gaWwgdm9jYWJvbGFyaW8gQlBFCiAgICAgICAgZm9yIHRva2VuX3N0ciwgdG9rZW5faWQgaW4gc2VsZi5zcGVjaWFsX3Rva2Vucy5pdGVtcygpOgogICAgICAgICAgICBzZWxmLnZvY2FiW3Rva2VuX2lkXSA9IHRva2VuX3N0ci5lbmNvZGUoInV0Zi04IikKCiAgICAgICAgc2VsZi5fYnVpbGRfZGVjb2RlX3RhYmxlKCkKICAgICAgICBpZiB2ZXJib3NlOgogICAgICAgICAgICBwcmludChmIlxuW3RyYWluXSBjb21wbGV0YXRvLiBWb2NhYm9sYXJpbzoge2xlbihzZWxmLnZvY2FiKX0gdG9rZW4uIikKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgIyBFbmNvZGUgLyBEZWNvZGUKICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogICAgZGVmIGVuY29kZShzZWxmLCB0ZXh0OiBzdHIpIC0+IGxpc3RbaW50XToKICAgICAgICAiIiJDb252ZXJ0ZSB0ZXN0byBpbiBsaXN0YSBkaSB0b2tlbiBJRCAoaW50ZXJpKS4iIiIKICAgICAgICAjIEdlc3Rpb25lIHNwZWNpYWwgdG9rZW4gKHJpY2VyY2EgZXNwbGljaXRhIG5lbCB0ZXN0bykKICAgICAgICBpZiBzZWxmLnNwZWNpYWxfdG9rZW5zOgogICAgICAgICAgICByZXR1cm4gc2VsZi5fZW5jb2RlX3dpdGhfc3BlY2lhbCh0ZXh0KQoKICAgICAgICBjaHVua3MgPSBzZWxmLl9wcmV0b2tlbml6ZSh0ZXh0KQogICAgICAgIGlkczogbGlzdFtpbnRdID0gW10KICAgICAgICBmb3IgY2h1bmsgaW4gY2h1bmtzOgogICAgICAgICAgICBpZHMuZXh0ZW5kKHNlbGYuX2VuY29kZV9jaHVuayhjaHVuay5lbmNvZGUoInV0Zi04IikpKQogICAgICAgIHJldHVybiBpZHMKCiAgICBkZWYgZGVjb2RlKHNlbGYsIGlkczogbGlzdFtpbnRdKSAtPiBzdHI6CiAgICAgICAgIiIiQ29udmVydGUgbGlzdGEgZGkgdG9rZW4gSUQgaW4gdGVzdG8uIiIiCiAgICAgICAgcmF3ID0gYiIiLmpvaW4oc2VsZi52b2NhYltpXSBmb3IgaSBpbiBpZHMgaWYgaSBpbiBzZWxmLnZvY2FiKQogICAgICAgIHJldHVybiByYXcuZGVjb2RlKCJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICMgSXNwZXppb25lIC8gZGVidWcKICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogICAgZGVmIHRva2VuX2luZm8oc2VsZiwgdG9rZW5faWQ6IGludCkgLT4gZGljdDoKICAgICAgICAiIiJSZXN0aXR1aXNjZSBpbmZvcm1hemlvbmkgc3UgdW4gdG9rZW4gKHV0aWxlIHBlciBkZWJ1ZyBkaWRhdHRpY28pLiIiIgogICAgICAgIHJhdyA9IHNlbGYudm9jYWIuZ2V0KHRva2VuX2lkKQogICAgICAgIGlmIHJhdyBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4geyJpZCI6IHRva2VuX2lkLCAiZXJyb3IiOiAidG9rZW4gbm9uIHRyb3ZhdG8ifQogICAgICAgIHRyeToKICAgICAgICAgICAgdGV4dCA9IHJhdy5kZWNvZGUoInV0Zi04IikKICAgICAgICBleGNlcHQgVW5pY29kZURlY29kZUVycm9yOgogICAgICAgICAgICB0ZXh0ID0gTm9uZQogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJpZCI6IHRva2VuX2lkLAogICAgICAgICAgICAiYnl0ZXMiOiBsaXN0KHJhdyksCiAgICAgICAgICAgICJoZXgiOiByYXcuaGV4KCksCiAgICAgICAgICAgICJ0ZXh0IjogdGV4dCwKICAgICAgICAgICAgImlzX3NwZWNpYWwiOiB0b2tlbl9pZCBpbiB7diBmb3IgdiBpbiBzZWxmLnNwZWNpYWxfdG9rZW5zLnZhbHVlcygpfSwKICAgICAgICAgICAgImlzX2Jhc2VfYnl0ZSI6IHRva2VuX2lkIDwgMjU2LAogICAgICAgICAgICAiaXNfbWVyZ2VkIjogMjU2IDw9IHRva2VuX2lkIDwgMjU2ICsgbGVuKHNlbGYubWVyZ2VzKSwKICAgICAgICB9CgogICAgZGVmIHNob3dfdG9rZW5pemF0aW9uKHNlbGYsIHRleHQ6IHN0cikgLT4gTm9uZToKICAgICAgICAiIiJTdGFtcGEgdW5hIHZpc3VhbGl6emF6aW9uZSBjb2xvcmF0YSBkZWxsYSB0b2tlbml6emF6aW9uZS4iIiIKICAgICAgICBpZHMgPSBzZWxmLmVuY29kZSh0ZXh0KQogICAgICAgIENPTE9SUyA9IFsiXDAzM1s0MW0iLCAiXDAzM1s0Mm0iLCAiXDAzM1s0M20iLCAiXDAzM1s0NG0iLCAiXDAzM1s0NW0iLCAiXDAzM1s0Nm0iXQogICAgICAgIFJFU0VUID0gIlwwMzNbMG0iCiAgICAgICAgcHJpbnQoZiJcblRlc3RvOiB7dGV4dCFyfSIpCiAgICAgICAgcHJpbnQoZiJUb2tlbiBJRHMgKHtsZW4oaWRzKX0gdG9rZW4pOiB7aWRzfVxuIikKICAgICAgICBwcmludCgiVmlzdWFsaXp6YXppb25lIHRva2VuOiIpCiAgICAgICAgY29sb3JlZCA9ICIiCiAgICAgICAgZm9yIGksIHRpZCBpbiBlbnVtZXJhdGUoaWRzKToKICAgICAgICAgICAgcmF3ID0gc2VsZi52b2NhYi5nZXQodGlkLCBiIj8iKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB0ID0gcmF3LmRlY29kZSgidXRmLTgiKQogICAgICAgICAgICBleGNlcHQgVW5pY29kZURlY29kZUVycm9yOgogICAgICAgICAgICAgICAgdCA9IGYiW3tyYXcuaGV4KCl9XSIKICAgICAgICAgICAgY29sb3IgPSBDT0xPUlNbaSAlIGxlbihDT0xPUlMpXQogICAgICAgICAgICBjb2xvcmVkICs9IGYie2NvbG9yfXt0fXtSRVNFVH0iCiAgICAgICAgcHJpbnQoY29sb3JlZCkKICAgICAgICBwcmludCgpCgogICAgZGVmIHZvY2FiX3N1bW1hcnkoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdGFtcGEgdW4gcmllcGlsb2dvIGRlbCB2b2NhYm9sYXJpby4iIiIKICAgICAgICBuX2Jhc2UgPSBzdW0oMSBmb3IgaSBpbiBzZWxmLnZvY2FiIGlmIGkgPCAyNTYpCiAgICAgICAgbl9tZXJnZWQgPSBzdW0oMSBmb3IgaSBpbiBzZWxmLnZvY2FiIGlmIDI1NiA8PSBpIDwgMjU2ICsgbGVuKHNlbGYubWVyZ2VzKSkKICAgICAgICBuX3NwZWNpYWwgPSBsZW4oc2VsZi5zcGVjaWFsX3Rva2VucykKICAgICAgICBwcmludChmIlZvY2Fib2xhcmlvOiB7bGVuKHNlbGYudm9jYWIpfSB0b2tlbiB0b3RhbGkiKQogICAgICAgIHByaW50KGYiICAtIHtuX2Jhc2V9IHRva2VuIGJhc2UgKGJ5dGUgMC0yNTUpIikKICAgICAgICBwcmludChmIiAgLSB7bl9tZXJnZWR9IHRva2VuIGZ1c2kgKEJQRSBtZXJnZSkiKQogICAgICAgIHByaW50KGYiICAtIHtuX3NwZWNpYWx9IHNwZWNpYWwgdG9rZW46IHtsaXN0KHNlbGYuc3BlY2lhbF90b2tlbnMua2V5cygpKX0iKQoKICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICAjIFNhbHZhdGFnZ2lvIC8gY2FyaWNhbWVudG8KICAgICMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogICAgZGVmIHNhdmUoc2VsZiwgcGF0aDogc3RyKSAtPiBOb25lOgogICAgICAgICIiIlNhbHZhIGlsIG1vZGVsbG8gc3UgZmlsZSBKU09OLiIiIgogICAgICAgIGRhdGEgPSB7CiAgICAgICAgICAgICJtZXJnZXMiOiBbW2EsIGIsIGNdIGZvciAoYSwgYiksIGMgaW4gc2VsZi5tZXJnZXMuaXRlbXMoKV0sCiAgICAgICAgICAgICJzcGVjaWFsX3Rva2VucyI6IHNlbGYuc3BlY2lhbF90b2tlbnMsCiAgICAgICAgfQogICAgICAgIHdpdGggb3BlbihwYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgIGpzb24uZHVtcChkYXRhLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQogICAgICAgIHByaW50KGYiW3NhdmVdIG1vZGVsbG8gc2FsdmF0byBpbiB7cGF0aCFyfSIpCgogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgbG9hZChjbHMsIHBhdGg6IHN0cikgLT4gIkJQRVRva2VuaXplciI6CiAgICAgICAgIiIiQ2FyaWNhIGlsIG1vZGVsbG8gZGEgZmlsZSBKU09OLiIiIgogICAgICAgIHdpdGggb3BlbihwYXRoLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCiAgICAgICAgdG9rID0gY2xzKHNwZWNpYWxfdG9rZW5zPWRhdGEuZ2V0KCJzcGVjaWFsX3Rva2VucyIsIHt9KSkKICAgICAgICBmb3IgYSwgYiwgYyBpbiBkYXRhWyJtZXJnZXMiXToKICAgICAgICAgICAgdG9rLm1lcmdlc1soYSwgYildID0gYwogICAgICAgICAgICB0b2sudm9jYWJbY10gPSB0b2sudm9jYWJbYV0gKyB0b2sudm9jYWJbYl0KICAgICAgICB0b2suX2J1aWxkX2RlY29kZV90YWJsZSgpCiAgICAgICAgcHJpbnQoZiJbbG9hZF0gbW9kZWxsbyBjYXJpY2F0byBkYSB7cGF0aCFyfSDigJQge2xlbih0b2subWVyZ2VzKX0gbWVyZ2UiKQogICAgICAgIHJldHVybiB0b2sKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgIyBNZXRvZGkgaW50ZXJuaQogICAgIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCiAgICBkZWYgX3ByZXRva2VuaXplKHNlbGYsIHRleHQ6IHN0cikgLT4gbGlzdFtzdHJdOgogICAgICAgICIiIlByZS10b2tlbml6emEgY29uIHJlZ2V4IEdQVC0yIChmYWxsYmFjayBhIHNwbGl0IHN1IHNwYXppbyBzZSByZWdleCBub24gZGlzcG9uaWJpbGUpLiIiIgogICAgICAgIHRyeToKICAgICAgICAgICAgaW1wb3J0IHJlZ2V4ICAjIHR5cGU6IGlnbm9yZQogICAgICAgICAgICBwYXR0ZXJuID0gcmVnZXguY29tcGlsZShzZWxmLl9HUFQyX1NQTElUX1BBVFRFUk5fU1RSLCByZWdleC5VTklDT0RFKQogICAgICAgICAgICByZXR1cm4gcGF0dGVybi5maW5kYWxsKHRleHQpCiAgICAgICAgZXhjZXB0IEltcG9ydEVycm9yOgogICAgICAgICAgICAjIEZhbGxiYWNrOiBwYXR0ZXJuIHNlbXBsaWZpY2F0byBjb24gcmUgc3RhbmRhcmQKICAgICAgICAgICAgcGF0dGVybiA9IHJlLmNvbXBpbGUociInKD86W3NkbXRdfGxsfHZlfHJlKXxcZHsxLDN9fFteXHNcd10rfFx3K3xccysiLCByZS5VTklDT0RFKQogICAgICAgICAgICByZXR1cm4gcGF0dGVybi5maW5kYWxsKHRleHQpCgogICAgZGVmIF9lbmNvZGVfY2h1bmsoc2VsZiwgY2h1bmtfYnl0ZXM6IGJ5dGVzKSAtPiBsaXN0W2ludF06CiAgICAgICAgIiIiQXBwbGljYSBpIG1lcmdlIEJQRSBhIHVuIHNpbmdvbG8gY2h1bmsgKGJ5dGVzKS4iIiIKICAgICAgICBpZHMgPSBsaXN0KGNodW5rX2J5dGVzKQogICAgICAgIHdoaWxlIGxlbihpZHMpID49IDI6CiAgICAgICAgICAgIHBhaXJzID0gZ2V0X3BhaXJzKGlkcykKICAgICAgICAgICAgIyBTY2VnbGllIGlsIG1lcmdlIGNvbiBsYSBwcmlvcml0w6AgcGnDuSBiYXNzYSAoPSBpbCBwcmltbyBpbXBhcmF0bykKICAgICAgICAgICAgYmVzdCA9IG1pbihwYWlycywga2V5PWxhbWJkYSBwOiBzZWxmLm1lcmdlcy5nZXQocCwgZmxvYXQoImluZiIpKSkKICAgICAgICAgICAgaWYgYmVzdCBub3QgaW4gc2VsZi5tZXJnZXM6CiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBpZHMgPSBtZXJnZShpZHMsIGJlc3QsIHNlbGYubWVyZ2VzW2Jlc3RdKQogICAgICAgIHJldHVybiBpZHMKCiAgICBkZWYgX2VuY29kZV93aXRoX3NwZWNpYWwoc2VsZiwgdGV4dDogc3RyKSAtPiBsaXN0W2ludF06CiAgICAgICAgIiIiRW5jb2RlIGNvbiBnZXN0aW9uZSBkZWdsaSBzcGVjaWFsIHRva2VuIChyaWNlcmNhIGxldHRlcmFsZSBuZWwgdGVzdG8pLiIiIgogICAgICAgICMgU3VkZGl2aWRlIGlsIHRlc3RvIGluIHBhcnRpOiBzcGVjaWFsIHRva2VuIGUgdGVzdG8gbm9ybWFsZQogICAgICAgIHBhdHRlcm4gPSAiKCIgKyAifCIuam9pbihyZS5lc2NhcGUocykgZm9yIHMgaW4gc2VsZi5zcGVjaWFsX3Rva2VucykgKyAiKSIKICAgICAgICBwYXJ0cyA9IHJlLnNwbGl0KHBhdHRlcm4sIHRleHQpCiAgICAgICAgaWRzOiBsaXN0W2ludF0gPSBbXQogICAgICAgIGZvciBwYXJ0IGluIHBhcnRzOgogICAgICAgICAgICBpZiBwYXJ0IGluIHNlbGYuc3BlY2lhbF90b2tlbnM6CiAgICAgICAgICAgICAgICBpZHMuYXBwZW5kKHNlbGYuc3BlY2lhbF90b2tlbnNbcGFydF0pCiAgICAgICAgICAgIGVsaWYgcGFydDoKICAgICAgICAgICAgICAgIGNodW5rcyA9IHNlbGYuX3ByZXRva2VuaXplKHBhcnQpCiAgICAgICAgICAgICAgICBmb3IgY2h1bmsgaW4gY2h1bmtzOgogICAgICAgICAgICAgICAgICAgIGlkcy5leHRlbmQoc2VsZi5fZW5jb2RlX2NodW5rKGNodW5rLmVuY29kZSgidXRmLTgiKSkpCiAgICAgICAgcmV0dXJuIGlkcwoKICAgIGRlZiBfYnVpbGRfZGVjb2RlX3RhYmxlKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiQ29zdHJ1aXNjZSBsYSB0YWJlbGxhIGludmVyc2Egc3BlY2lhbF90b2tlbl9pZCDihpIgc3RyaW5nYS4iIiIKICAgICAgICBzZWxmLl9zcGVjaWFsX2J5X2lkID0ge3Y6IGsgZm9yIGssIHYgaW4gc2VsZi5zcGVjaWFsX3Rva2Vucy5pdGVtcygpfQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgRGVtbyBpbnRlcmF0dGl2YQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKVEVTVE9fRVNFTVBJTyA9ICIiIgpMJ2ludGVsbGlnZW56YSBhcnRpZmljaWFsZSAoSUEpIMOoIHVuYSBicmFuY2EgZGVsbCdpbmZvcm1hdGljYSBjaGUgc3R1ZGlhIGNvbWUKY3JlYXJlIHNpc3RlbWkgaW4gZ3JhZG8gZGkgZXNlZ3VpcmUgY29tcGl0aSBjaGUgbm9ybWFsbWVudGUgcmljaGllZG9ubwppbnRlbGxpZ2VuemEgdW1hbmEuIFRyYSBxdWVzdGk6IHJpY29ub3NjaW1lbnRvIHZvY2FsZSwgdmlzaW9uZSBhcnRpZmljaWFsZSwKdHJhZHV6aW9uZSBhdXRvbWF0aWNhIGUgcmFnaW9uYW1lbnRvIGxvZ2ljby4KCkkgbW9kZWxsaSBsaW5ndWlzdGljaSBkaSBncmFuZGkgZGltZW5zaW9uaSAoTExNKSBjb21lIEdQVC00IG8gTExhTUEgdXRpbGl6emFubwphcmNoaXRldHR1cmUgdHJhbnNmb3JtZXIgY29uIG1pbGlhcmRpIGRpIHBhcmFtZXRyaS4gSWwgdG9rZW5penphdG9yZSDDqCBpbCBwcmltbwpjb21wb25lbnRlIGRlbGxhIHBpcGVsaW5lOiBjb252ZXJ0ZSBpbCB0ZXN0byBncmV6em8gaW4gdW5hIHNlcXVlbnphIGRpIGludGVyaQoodG9rZW4gSUQpIGNoZSBsYSByZXRlIG5ldXJhbGUgcHXDsiBlbGFib3JhcmUuCgpoZWxsbyB3b3JsZCEgMTIzIHRlc3QuLi4gdG9rZW5pemF0aW9uIGlzIGZ1biA6KQoiIiIuc3RyaXAoKQoKCmRlZiBkZW1vKCk6CiAgICBwcmludCgiPSIgKiA2NSkKICAgIHByaW50KCIgIFRva2VuaXp6YXRvcmUgQlBFIGRpZGF0dGljbyAg4oCUICBpc3BpcmF0byBhIEdQVC0yIC8gdGlrdG9rZW4iKQogICAgcHJpbnQoIj0iICogNjUpCgogICAgIyBTcGVjaWFsIHRva2VuIHN0YW5kYXJkIChjb21lIEdQVC0yIC8gR1BULTQpCiAgICBzcGVjaWFsID0gewogICAgICAgICI8fGVuZG9mdGV4dHw+IjogMzAwLAogICAgICAgICI8fHBhZHw+IjogICAgICAgIDMwMSwKICAgICAgICAiPHx1bmt8PiI6ICAgICAgICAzMDIsCiAgICB9CgogICAgdG9rID0gQlBFVG9rZW5pemVyKHNwZWNpYWxfdG9rZW5zPXNwZWNpYWwpCgogICAgcHJpbnQoIlxuWzFdIFRSQUlOSU5HIHN1bCB0ZXN0byBkaSBlc2VtcGlvLi4uIikKICAgIHRvay50cmFpbihURVNUT19FU0VNUElPLCB2b2NhYl9zaXplPTMwMCwgdmVyYm9zZT1UcnVlKQoKICAgIHByaW50KCJcbiIgKyAiPSIgKiA2NSkKICAgIHRvay52b2NhYl9zdW1tYXJ5KCkKCiAgICAjIEVzZW1waSBkaSBlbmNvZGUvZGVjb2RlCiAgICBmcmFzaSA9IFsKICAgICAgICAiaW50ZWxsaWdlbnphIGFydGlmaWNpYWxlIiwKICAgICAgICAidG9rZW5pemF0aW9uIGlzIGZ1biIsCiAgICAgICAgIkxMTSA8fGVuZG9mdGV4dHw+IiwKICAgICAgICAiMTIzIHBhcmFtZXRyaSIsCiAgICBdCgogICAgcHJpbnQoIlxuWzJdIEVOQ09ERSAvIERFQ09ERSIpCiAgICBwcmludCgiLSIgKiA2NSkKICAgIGZvciBmcmFzZSBpbiBmcmFzaToKICAgICAgICBpZHMgPSB0b2suZW5jb2RlKGZyYXNlKQogICAgICAgIGRlY29kZWQgPSB0b2suZGVjb2RlKGlkcykKICAgICAgICBtYXRjaCA9ICLinJMiIGlmIGRlY29kZWQgPT0gZnJhc2UgZWxzZSAi4pyXIgogICAgICAgIHByaW50KGYiICBJbnB1dCAgIDoge2ZyYXNlIXJ9IikKICAgICAgICBwcmludChmIiAgSURzICAgICA6IHtpZHN9IikKICAgICAgICBwcmludChmIiAgRGVjb2RlICA6IHtkZWNvZGVkIXJ9ICB7bWF0Y2h9IikKICAgICAgICBwcmludCgpCgogICAgIyBWaXN1YWxpenphemlvbmUgY29sb3JhdGEKICAgIHByaW50KCJbM10gVklTVUFMSVpaQVpJT05FIFRPS0VOSVpaQVpJT05FIikKICAgIHRvay5zaG93X3Rva2VuaXphdGlvbigiTCdpbnRlbGxpZ2VuemEgYXJ0aWZpY2lhbGUgw6ggcG90ZW50ZSIpCiAgICB0b2suc2hvd190b2tlbml6YXRpb24oImhlbGxvIHdvcmxkISAxMjMiKQoKICAgICMgSXNwZXppb25lIGRpIGFsY3VuaSB0b2tlbgogICAgcHJpbnQoIls0XSBJU1BFWklPTkUgVE9LRU4iKQogICAgcHJpbnQoIi0iICogNjUpCiAgICBmb3IgdGlkIGluIFs2NSwgMjU2LCAyNTcsIDMwMF06CiAgICAgICAgaW5mbyA9IHRvay50b2tlbl9pbmZvKHRpZCkKICAgICAgICBwcmludChmIiAge2luZm99IikKCiAgICAjIFN0YXRpc3RpY2hlIGRpIGNvbXByZXNzaW9uZQogICAgcHJpbnQoIlxuWzVdIFJBUFBPUlRPIERJIENPTVBSRVNTSU9ORSIpCiAgICBwcmludCgiLSIgKiA2NSkKICAgIGZvciBmcmFzZSBpbiBbImludGVsbGlnZW56YSBhcnRpZmljaWFsZSIsICJ0b2tlbml6YXRpb24iXToKICAgICAgICBuX2J5dGUgPSBsZW4oZnJhc2UuZW5jb2RlKCJ1dGYtOCIpKQogICAgICAgIG5fdG9rICA9IGxlbih0b2suZW5jb2RlKGZyYXNlKSkKICAgICAgICByYXRpbyAgPSBuX2J5dGUgLyBuX3RvawogICAgICAgIHByaW50KGYiICB7ZnJhc2Uhcn06IHtuX2J5dGV9IGJ5dGUg4oaSIHtuX3Rva30gdG9rZW4gIChyYXRpbyB7cmF0aW86LjJmfXgpIikKCiAgICAjIFNhbHZhdGFnZ2lvCiAgICBwcmludCgiXG5bNl0gU0FMVkFUQUdHSU8gRSBSSUNBUklDQU1FTlRPIikKICAgIHByaW50KCItIiAqIDY1KQogICAgdG9rLnNhdmUoInRva2VuaXplcl9tb2RlbC5qc29uIikKICAgIHRvazIgPSBCUEVUb2tlbml6ZXIubG9hZCgidG9rZW5pemVyX21vZGVsLmpzb24iKQogICAgZnJhc2VfdGVzdCA9ICJpbnRlbGxpZ2VuemEgYXJ0aWZpY2lhbGUiCiAgICBhc3NlcnQgdG9rLmVuY29kZShmcmFzZV90ZXN0KSA9PSB0b2syLmVuY29kZShmcmFzZV90ZXN0KSwgIkVycm9yZTogaSBtb2RlbGxpIG5vbiBjb25jb3JkYW5vISIKICAgIHByaW50KCIgIFZlcmlmaWNhIGVuY29kZSBkb3BvIHJlbG9hZDogT0sg4pyTIikKCiAgICBwcmludCgiXG4iICsgIj0iICogNjUpCiAgICBwcmludCgiICBEZW1vIGNvbXBsZXRhdGEuIikKICAgIHByaW50KCI9IiAqIDY1KQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBkZW1vKCkK
+"""
+Tokenizzatore didattico - Byte Pair Encoding (BPE)
+===================================================
+Implementa l'algoritmo BPE usato in produzione da GPT-2/GPT-4, LLaMA, ecc.
+
+Concetti chiave fedeli alla ricerca:
+  - Vocabolario costruito bottom-up partendo dai byte grezzi (256 token base)
+  - Merge iterativo delle coppie piu' frequenti (Sennrich et al., 2016)
+  - Token ID numerici interi (come nei transformer reali)
+  - Testo -> token IDs -> testo (encode/decode simmetrici)
+  - Special token: <|endoftext|>, <|pad|>, ecc.
+"""
+
+import re
+import json
+from collections import defaultdict
+from typing import Optional
+
+
+def get_pairs(ids):
+    counts = defaultdict(int)
+    for a, b in zip(ids, ids[1:]):
+        counts[(a, b)] += 1
+    return counts
+
+
+def merge(ids, pair, new_id):
+    result = []
+    i = 0
+    while i < len(ids):
+        if i < len(ids) - 1 and ids[i] == pair[0] and ids[i + 1] == pair[1]:
+            result.append(new_id)
+            i += 2
+        else:
+            result.append(ids[i])
+            i += 1
+    return result
+
+
+class BPETokenizer:
+    """
+    Tokenizzatore Byte Pair Encoding (BPE) didattico.
+
+    Vocabolario iniziale: 256 byte (ogni byte e' un token da 0 a 255).
+    Vocabolario finale:   256 + num_merges token.
+
+    special_tokens: token con ID riservati aggiunti dopo il vocabolario BPE.
+    """
+
+    # Pattern GPT-2 (richiede la libreria `regex`; fallback a `re` standard)
+    _GPT2_SPLIT_PATTERN_STR = (
+        r"'(?:[sdmt]|ll|ve|re)|"
+        r"[^\r\n\p{L}\p{N}]?\p{L}+|"
+        r"\p{N}{1,3}|"
+        r" ?[^\s\p{L}\p{N}]+[\r\n]*|"
+        r"\s*[\r\n]+|"
+        r"\s+(?!\S)|"
+        r"\s+"
+    )
+
+    def __init__(self, special_tokens=None):
+        self.vocab = {i: bytes([i]) for i in range(256)}
+        self.merges = {}
+        self.special_tokens = special_tokens or {}
+        self._build_decode_table()
+
+    def train(self, text, vocab_size, verbose=True):
+        """Addestra il tokenizzatore. vocab_size >= 256."""
+        assert vocab_size >= 256
+        num_merges = vocab_size - 256
+        chunks = self._pretokenize(text)
+        ids_per_chunk = [list(chunk.encode("utf-8")) for chunk in chunks]
+
+        if verbose:
+            total = sum(len(c) for c in ids_per_chunk)
+            print(f"[train] {len(text)} caratteri -> {total} byte-token iniziali")
+            print(f"[train] vocabolario target: {vocab_size} ({num_merges} merge)\n")
+
+        for step in range(num_merges):
+            counts = defaultdict(int)
+            for ids in ids_per_chunk:
+                for pair, cnt in get_pairs(ids).items():
+                    counts[pair] += cnt
+            if not counts:
+                break
+
+            best = max(counts, key=lambda p: counts[p])
+            new_id = 256 + step
+            ids_per_chunk = [merge(ids, best, new_id) for ids in ids_per_chunk]
+            self.merges[best] = new_id
+            self.vocab[new_id] = self.vocab[best[0]] + self.vocab[best[1]]
+
+            if verbose:
+                try:
+                    readable = self.vocab[new_id].decode("utf-8")
+                except UnicodeDecodeError:
+                    readable = repr(self.vocab[new_id])
+                print(f"  merge {step+1:4d}/{num_merges}: "
+                      f"({best[0]:4d},{best[1]:4d}) -> {new_id:4d}  "
+                      f"freq={counts[best]:6d}  token={readable!r}")
+
+        for tok_str, tok_id in self.special_tokens.items():
+            self.vocab[tok_id] = tok_str.encode("utf-8")
+        self._build_decode_table()
+        if verbose:
+            print(f"\n[train] completato. Vocabolario: {len(self.vocab)} token.")
+
+    def encode(self, text):
+        """Testo -> lista di token ID (interi)."""
+        if self.special_tokens:
+            return self._encode_with_special(text)
+        ids = []
+        for chunk in self._pretokenize(text):
+            ids.extend(self._encode_chunk(chunk.encode("utf-8")))
+        return ids
+
+    def decode(self, ids):
+        """Lista di token ID -> testo."""
+        raw = b"".join(self.vocab[i] for i in ids if i in self.vocab)
+        return raw.decode("utf-8", errors="replace")
+
+    def token_info(self, token_id):
+        """Informazioni su un singolo token (utile per debug didattico)."""
+        raw = self.vocab.get(token_id)
+        if raw is None:
+            return {"id": token_id, "error": "non trovato"}
+        try:
+            text = raw.decode("utf-8")
+        except UnicodeDecodeError:
+            text = None
+        return {
+            "id": token_id,
+            "bytes": list(raw),
+            "hex": raw.hex(),
+            "text": text,
+            "is_special": token_id in set(self.special_tokens.values()),
+            "is_base_byte": token_id < 256,
+            "is_merged": 256 <= token_id < 256 + len(self.merges),
+        }
+
+    def show_tokenization(self, text):
+        """Visualizzazione colorata della tokenizzazione nel terminale."""
+        ids = self.encode(text)
+        COLORS = ["\033[41m", "\033[42m", "\033[43m", "\033[44m", "\033[45m", "\033[46m"]
+        RESET = "\033[0m"
+        print(f"\nTesto: {text!r}")
+        print(f"Token IDs ({len(ids)} token): {ids}\n")
+        colored = ""
+        for i, tid in enumerate(ids):
+            raw = self.vocab.get(tid, b"?")
+            try:
+                t = raw.decode("utf-8")
+            except UnicodeDecodeError:
+                t = f"[{raw.hex()}]"
+            colored += f"{COLORS[i % len(COLORS)]}{t}{RESET}"
+        print(colored + "\n")
+
+    def vocab_summary(self):
+        n_base = sum(1 for i in self.vocab if i < 256)
+        n_merged = sum(1 for i in self.vocab if 256 <= i < 256 + len(self.merges))
+        print(f"Vocabolario: {len(self.vocab)} token totali")
+        print(f"  - {n_base} token base (byte 0-255)")
+        print(f"  - {n_merged} token fusi (BPE merge)")
+        print(f"  - {len(self.special_tokens)} special token: {list(self.special_tokens.keys())}")
+
+    def save(self, path):
+        data = {
+            "merges": [[a, b, c] for (a, b), c in self.merges.items()],
+            "special_tokens": self.special_tokens,
+        }
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[save] modello salvato in {path!r}")
+
+    @classmethod
+    def load(cls, path):
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        tok = cls(special_tokens=data.get("special_tokens", {}))
+        for a, b, c in data["merges"]:
+            tok.merges[(a, b)] = c
+            tok.vocab[c] = tok.vocab[a] + tok.vocab[b]
+        tok._build_decode_table()
+        print(f"[load] {len(tok.merges)} merge caricati da {path!r}")
+        return tok
+
+    def _pretokenize(self, text):
+        try:
+            import regex
+            return regex.compile(self._GPT2_SPLIT_PATTERN_STR, regex.UNICODE).findall(text)
+        except ImportError:
+            return re.compile(r"'(?:[sdmt]|ll|ve|re)|\d{1,3}|[^\s\w]+|\w+|\s+", re.UNICODE).findall(text)
+
+    def _encode_chunk(self, chunk_bytes):
+        ids = list(chunk_bytes)
+        while len(ids) >= 2:
+            pairs = get_pairs(ids)
+            best = min(pairs, key=lambda p: self.merges.get(p, float("inf")))
+            if best not in self.merges:
+                break
+            ids = merge(ids, best, self.merges[best])
+        return ids
+
+    def _encode_with_special(self, text):
+        pattern = "(" + "|".join(re.escape(s) for s in self.special_tokens) + ")"
+        ids = []
+        for part in re.split(pattern, text):
+            if part in self.special_tokens:
+                ids.append(self.special_tokens[part])
+            elif part:
+                for chunk in self._pretokenize(part):
+                    ids.extend(self._encode_chunk(chunk.encode("utf-8")))
+        return ids
+
+    def _build_decode_table(self):
+        self._special_by_id = {v: k for k, v in self.special_tokens.items()}
+
+
+# ---------------------------------------------------------------------------
+# Demo
+# ---------------------------------------------------------------------------
+
+TESTO_ESEMPIO = """
+L'intelligenza artificiale (IA) e' una branca dell'informatica che studia come
+creare sistemi in grado di eseguire compiti che normalmente richiedono
+intelligenza umana. Tra questi: riconoscimento vocale, visione artificiale,
+traduzione automatica e ragionamento logico.
+
+I modelli linguistici di grandi dimensioni (LLM) come GPT-4 o LLaMA utilizzano
+architetture transformer con miliardi di parametri. Il tokenizzatore e' il primo
+componente della pipeline: converte il testo grezzo in una sequenza di interi
+(token ID) che la rete neurale puo' elaborare.
+
+hello world! 123 test... tokenization is fun :)
+""".strip()
+
+
+def demo():
+    print("=" * 65)
+    print("  Tokenizzatore BPE didattico  --  ispirato a GPT-2 / tiktoken")
+    print("=" * 65)
+
+    special = {"<|endoftext|>": 300, "<|pad|>": 301, "<|unk|>": 302}
+    tok = BPETokenizer(special_tokens=special)
+
+    print("\n[1] TRAINING...")
+    tok.train(TESTO_ESEMPIO, vocab_size=300, verbose=True)
+
+    print("\n" + "=" * 65)
+    tok.vocab_summary()
+
+    print("\n[2] ENCODE / DECODE")
+    print("-" * 65)
+    for frase in ["intelligenza artificiale", "tokenization is fun", "LLM <|endoftext|>", "123 parametri"]:
+        ids = tok.encode(frase)
+        decoded = tok.decode(ids)
+        ok = "OK" if decoded == frase else "ERRORE"
+        print(f"  {frase!r}")
+        print(f"  -> IDs: {ids}")
+        print(f"  -> decode: {decoded!r}  [{ok}]\n")
+
+    print("[3] VISUALIZZAZIONE")
+    tok.show_tokenization("L'intelligenza artificiale")
+    tok.show_tokenization("hello world! 123")
+
+    print("[4] ISPEZIONE TOKEN")
+    print("-" * 65)
+    for tid in [65, 256, 257, 300]:
+        print(f"  {tok.token_info(tid)}")
+
+    print("\n[5] COMPRESSIONE")
+    print("-" * 65)
+    for frase in ["intelligenza artificiale", "tokenization"]:
+        nb = len(frase.encode("utf-8"))
+        nt = len(tok.encode(frase))
+        print(f"  {frase!r}: {nb} byte -> {nt} token (ratio {nb/nt:.2f}x)")
+
+    print("\n[6] SALVATAGGIO / RELOAD")
+    print("-" * 65)
+    tok.save("tokenizer_model.json")
+    tok2 = BPETokenizer.load("tokenizer_model.json")
+    frase_test = "intelligenza artificiale"
+    assert tok.encode(frase_test) == tok2.encode(frase_test)
+    print("  Verifica encode dopo reload: OK")
+
+    print("\n" + "=" * 65)
+    print("  Demo completata.")
+    print("=" * 65)
+
+
+if __name__ == "__main__":
+    demo()
